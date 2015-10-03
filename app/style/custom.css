@@ -4,7 +4,7 @@
 }
 
 .blink span{
-	animation: blink 1s steps(5, start) infinite !important;
+	animation: blink 1s steps(5, start) infinite ;
 }
 
  @keyframes blink {
@@ -21,7 +21,7 @@
 
 .clockwrapper{
 	
-	font-family: digital-clock;
+	font-family: digital-clock !important;
 	font-size: 45px;
 	position: absolute;
 	top:50%;
