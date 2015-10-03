@@ -1,0 +1,36 @@
+@font-face {
+    font-family: digital-clock;
+    src: url('fonts/DS-DIGIT.ttf');
+}
+
+.blink span{
+	animation: blink 1s steps(5, start) infinite;
+}
+
+ @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+  }
+
+.clockwrapper a:hover,
+.clockwrapper a:focus{
+	cursor: pointer;
+	text-decoration: none; 
+}
+
+.clockwrapper{
+	
+	font-family: digital-clock;
+	font-size: 45px;
+	position: absolute;
+	top:50%;
+	width: 100%
+
+}
+
+@media (max-width: 768px) {
+  .clockwrapper {
+    font-size: 30px;
+  }
+}
