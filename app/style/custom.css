@@ -4,7 +4,7 @@
 }
 
 .blink span{
-	animation: blink 1s steps(5, start) infinite;
+	animation: blink 1s steps(5, start) infinite !important;
 }
 
  @keyframes blink {
