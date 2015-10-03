@@ -1,0 +1,23 @@
+{
+  "name": "Ticktock",
+  "version": "0.0.2",
+  "description": "Clock and Alarm SPA",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-karma": "~0.4.4",
+    "grunt-open": "^0.2.3",
+    "grunt-serve": "^0.1.6"
+  },
+  "keywords": [
+    "ticktock"
+  ],
+  "author": "Mario Madrigal",
+  "license": "ISC"
+}
