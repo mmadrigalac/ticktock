@@ -1,6 +1,6 @@
 @font-face {
     font-family: digital-clock;
-    src: url('fonts/DS-DIGIT.ttf');
+    src: url('fonts/digital.ttf');
 }
 
 .blink span{
@@ -20,14 +20,13 @@
 }
 
 .clockwrapper{
-	
 	font-family: digital-clock;
 	font-size: 45px;
 	position: absolute;
 	top:50%;
 	width: 100%
-
 }
+
 
 @media (max-width: 768px) {
   .clockwrapper {
