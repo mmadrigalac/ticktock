@@ -1,6 +1,6 @@
 <div class="clockwrapper panel panel-default ">
 	<div class="panel-body text-center">
-			<a class="fa " ng-class="{'fa-clock-o':!time.alarmSet, 'fa-bell':time.alarmSet }" ng-click="confAlarm()"></a> <span>Set Alarm</span>
+			<a class="fa " ng-class="{'fa-clock-o':!time.alarmSet, 'fa-bell':time.alarmSet }" ng-click="confAlarm()"></a> <h6 ng-if="!time.alarmSet">(Set Alarm)</h6>
 			<div ng-if="!openConf">
 				<span ng-bind="time.hours"></span>:<span ng-bind="time.minutes"></span>:<span ng-bind="time.seconds"></span>
 			</div>
